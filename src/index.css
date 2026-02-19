@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body {
+  background:
+    radial-gradient(circle at 12% 18%, rgba(255, 231, 179, 0.48), transparent 32%),
+    radial-gradient(circle at 84% 20%, rgba(248, 170, 124, 0.35), transparent 38%),
+    linear-gradient(160deg, #f6efe2 0%, #f9f3e8 45%, #f3e5cf 100%);
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
